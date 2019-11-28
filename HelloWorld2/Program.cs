@@ -12,6 +12,7 @@ namespace HelloWorld2
         {
             Console.WriteLine("Hello world");
             Console.WriteLine("Second line of code");
+            Console.WriteLine("Third line of code");
         }
     }
 }
