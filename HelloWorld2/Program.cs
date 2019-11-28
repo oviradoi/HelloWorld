@@ -10,10 +10,9 @@ namespace HelloWorld2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
-            Console.WriteLine("Second line of code");
-            Console.WriteLine("Third line of code");
-            Console.WriteLine("Fourth line of code");
+            Console.WriteLine("What is your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello, {0}", name);
         }
     }
 }
